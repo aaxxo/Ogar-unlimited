@@ -14,7 +14,7 @@ This Modified copy was created to help those who want to open their server to th
  4. Max IP Connections
  5. Troll command ;)
  6. More GameModes
- 7. Ban, Unban, Banlist
+ 7. Ban, Unban, Ban List (with revolutionary ban technique, no lag, no DDoS attacks)
  8. Autoban option (see gameserver.ini)
  9. More control (gameserver.ini)
  10. and other features such as merge or nojoin or kick/killrange
@@ -46,6 +46,8 @@ You use OP by first setting who has OP by doing op [id] in console. Then, that p
 As Ogar Unlimited is written in Node.js, you must have Node.js and its "ws" module installed to use it (unless you are using the Windows binary). You can usually download Node using your distribution's package manager (for *nix-like systems), or from [the Node website](http://nodejs.org). To install the "ws" module that is required, open up your system command line (cmd for windows, terminal for mac) and type "npm install ws". If you are on Linux, you can use the install script which would also automatically install node.js and ws. To see a detailed guide go to the [Installation guide] (https://github.com/AJS-development/Ogar-unlimited/wiki/Installation) in the wiki
 
 (You can install and use Ogar unlimited on windows very quickly. First click `InstallWS.bat` in src. Then wait (it takes a while), then click `ClickToStart.bat` and you're off! The next time you start the server, you only have to click `ClickToStart.bat`)
+
+(Binarys are also available in Releases)
 
 Currently, Ogar listens on the following addresses and ports:
 * *:88 - for the stats server (I would use it to track servers)
